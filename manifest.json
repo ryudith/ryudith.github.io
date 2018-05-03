@@ -1,13 +1,13 @@
 {
 	"name"              : "PWA Website",
-	"short_name"        : "PWA",
+	"short_name"        : "ryudith.github.io",
 	"description"       : "An example PWA website",
 	"start_url"         : "/",
 	"display"           : "standalone",
 	"orientation"       : "any",
 	"background_color"  : "#ACE",
 	"theme_color"       : "#ACE",
-	"display"           : "minimal-ui",
+	"display"           : "standalone",
 	"icons": [
 		{
 			"src"           : "/hexa.png",
