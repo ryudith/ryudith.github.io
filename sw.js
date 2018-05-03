@@ -52,9 +52,11 @@ self.addEventListener('install', function (event) {
 
 self.addEventListener('activate', function(event) {
 	console.log("SW activated");
+	handleNotification('Info', 'PWA Active.');
 });
 
 self.addEventListener('fetch', function(event) {
 	console.log("Caught a fetch!");
+	handleNotification('Info', 'PWA Fetch.');
 	event.respondWith(new Response("Hello world!"));
 });
